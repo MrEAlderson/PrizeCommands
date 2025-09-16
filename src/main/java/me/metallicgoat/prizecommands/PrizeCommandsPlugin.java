@@ -51,6 +51,7 @@ public class PrizeCommandsPlugin extends JavaPlugin {
     manager.registerEvents(new PlayerConnections(), this); // Join & Leave & Rejoin
     manager.registerEvents(new AchievementEarnPrize(), this);
     manager.registerEvents(new GameStartPrize(), this);
+    manager.registerEvents(new FireballDeflectPrize(), this);
   }
 
   private boolean checkMBedwars() {
